@@ -24,7 +24,10 @@
 
 - Download this folder and copy all inner files/folder into your cloned folder https://github.com/ankitverma31/cicd-pipeline-demo
 - Open the cloned project in code editor
-- **IMPORTANT:** Checkout the branch which you have created earlier and NOT THE MASTER BRANCH. You will do all changes in your branch and we will merge this branch in master on successful pipeline build
+- Push files
+  - git add
+  - git commit -m "initial commit"
+  - git push
 - Run command in terminal(in case of error, install nodejs https://nodejs.org/en/download/): **npm i**
 - Go to src/calculator => only add.js is implemented. You will need to implement for subtract.js, multiply.js, divide.js
 - Go to src/index.test.js => only Addition is implemented. You will need to implement Subtraction, Multiplication, Division
@@ -32,10 +35,6 @@
 - Run this command to run test cases: **npm run test**
 - You can open and view build/index.html file in broweser to check you changes
 - In case of successful build and test, commit changes in your branch and push the changes to remote repository and wait for piplines/jobs to pass
-- Go to gitlab => new merge request => **Source branch:** (Your branch name) => **Target branch:** master
-- **Title:** changes you made, Merge options: uncheck delete => Create merge request => merge
-- Go to pipelines => once build, test is completed => click on deploy play icon
-- Site will be deployed automatically to netlify and all functionalities should work(add, subtract, multiply, delete)
 
 # Useful Links:
 
